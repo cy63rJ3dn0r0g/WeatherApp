@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/be1c45821e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+
+    <title>weather app</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="timeOfDay">
+            <div class="time timeDawn">
+                <span class="sun sunDawn"></span>
+                <span class="mountain mountainDawn"></span>
+                <span class="mountain mountainSnowDawn"></span>
+                <span class="mountain mountainFoggyDawn"></span>
+                <span class="mountain mountainFoggySnowDawn"></span>
+            </div>
+            <div class="time timeDay">
+                <span class="sun sunDay"></span>
+                <span class="mountainDay"></span>
+                <span class="mountainSnowDay"></span>
+                <span class="mountainFoggyDay"></span>
+                <span class="mountainFoggySnowDay"></span>
+            </div>
+            <div class="time timeDusk">
+                <span class="sun sunDusk"></span>
+                <span class="starsDusk"></span>
+                <span class="mountainDusk"></span>
+                <span class="mountainSnowDusk"></span>
+                <span class="mountainFoggyDusk"></span>
+                <span class="mountainFoggySnowDusk"></span>
+            </div>
+            <div class="time timeNight">
+                <span class="starsNight"></span>
+                <span class="moon"></span>
+                <span class="mountainNight"></span>
+                <span class="mountainNightSnow"></span>
+            </div>
+            <div class="weather">
+                <div class="weather rainy">
+                    <span class="rainyRain"></span>
+                    <span class="cloudsRain"></span>
+                </div>
+                <div class="weather cloudy">
+                    <span class="cloudsCloudy2"></span>
+                    <span class="cloudsCloudy"></span>
+                </div>
+                <div class="weather foggy">
+                    <span class="mountainFoggy"></span>
+                    <span class="cloudsFoggy"></span>
+                </div>
+                <div class="weather drizzle" >
+                    <span class="drizzleCloud"></span>
+                </div>
+                <div class="weather overcast">
+                    <span class="overCastCloud"></span>
+                </div>
+                <div class="weather thunder">
+                    <span class="thunderStrike"></span>
+                    <span class="cloudsThunder"></span>
+                    <span class="thunderRain"></span>
+                    <span class="thunderRain2"></span>
+                    <span class="cloudsStorm"></span>
+                </div>
+                <div class="weather snow">
+                    <span class="cloudsSnow"></span>
+                </div>
+            </div>
+        </div>
+        <section class="forecast">
+            <form id="search-form">
+                <input type="text" placeholder="Enter city as Bor,RS" id="search-input">
+                <button type="submit" class="fa-solid fa-magnifying-glass-location fa-2xl"></button>
+            </form>
+            <div class="forecast-content">
+            </div>
+        </section>
+    </div>
+</body>
+<script src="assets/script.js"></script>
+</script>
+
+</html>
